@@ -21,7 +21,7 @@ export default function AboutPage() {
           backgroundPosition: 'center',
         }}
       >
-        <div className="container py-24 text-white md:py-32">
+        <div className="container py-20 text-white md:py-32">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--avp-amber)]">About us</p>
             <h1 className="mt-5 text-5xl font-black uppercase tracking-[-0.05em] md:text-7xl">About AVP Sports</h1>
@@ -30,11 +30,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="py-16 md:py-24">
         <div className="container grid gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
-          <div>
+          <div className="min-w-0">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--avp-green)]">Brand story</p>
-            <h2 className="mt-3 text-4xl font-black uppercase tracking-[-0.05em] text-[var(--avp-ink)]">
+            <h2 className="mt-3 break-words text-3xl font-black uppercase tracking-[-0.05em] text-[var(--avp-ink)] md:text-4xl">
               A sports-first brand built around people and performance.
             </h2>
             <p className="mt-6 text-base leading-8 text-[var(--avp-ink)]/75">
@@ -49,13 +49,13 @@ export default function AboutPage() {
             <img
               src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80"
               alt="Training equipment and sports gear"
-              className="h-full min-h-[420px] w-full object-cover"
+              className="h-[320px] w-full object-cover md:h-[420px]"
             />
           </div>
         </div>
       </section>
 
-      <section className="bg-[var(--avp-bg)] py-24">
+      <section className="bg-[var(--avp-bg)] py-16 md:py-24">
         <div className="container grid gap-8 lg:grid-cols-2">
           <div className="rounded-[2rem] bg-white p-8 shadow-[0_20px_40px_rgba(17,17,17,0.04)]">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--avp-green)]">Our mission</p>
@@ -79,7 +79,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="py-16 md:py-24">
         <div className="container">
           <div className="mx-auto max-w-2xl text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--avp-green)]">Our values</p>
@@ -102,7 +102,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="pb-24">
+      <section className="pb-16 md:pb-24">
         <div className="container">
           <div className="rounded-[2rem] bg-[var(--avp-ink)] px-8 py-10 text-white md:flex md:items-center md:justify-between">
             <div>

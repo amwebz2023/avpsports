@@ -79,7 +79,7 @@ export function HomePage() {
           }}
         />
 
-        <div className="container relative grid min-h-[680px] items-center py-24 md:py-28">
+        <div className="container relative grid min-h-[560px] items-center py-16 md:min-h-[680px] md:py-28">
           <motion.div
             initial="hidden"
             animate="visible"
@@ -119,7 +119,7 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="py-16 md:py-24">
         <div className="container grid items-center gap-10 lg:grid-cols-2">
           <motion.div
             initial="hidden"
@@ -132,7 +132,7 @@ export function HomePage() {
             <img
               src="https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=1200&q=80"
               alt="Athletes training together"
-              className="h-[500px] w-full object-cover"
+              className="h-[320px] w-full object-cover md:h-[500px]"
             />
           </motion.div>
 
@@ -148,13 +148,13 @@ export function HomePage() {
               Brand story
             </span>
             <h2 className="mt-5 text-4xl font-black uppercase tracking-[-0.05em] text-[var(--avp-ink)] md:text-5xl">
-              More Than a Game. It's a Passion.
+              More Than a Game. It&apos;s a Passion.
             </h2>
             <p className="mt-5 text-base leading-8 text-[var(--avp-ink)]/75">
               AVP Sports brings together the spirit of sport with a professional, customer-first approach. We help athletes and enthusiasts discover gear and accessories that support their training, confidence, and love for the game.
             </p>
             <p className="mt-5 text-base leading-8 text-[var(--avp-ink)]/75">
-              Whether you're training seriously or simply living an active lifestyle, AVP Sports is here to support your sporting journey with practical recommendations and a premium shopping experience.
+              Whether you&apos;re training seriously or simply living an active lifestyle, AVP Sports is here to support your sporting journey with practical recommendations and a premium shopping experience.
             </p>
             <Link
               href="/about"
@@ -166,7 +166,7 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="bg-[var(--avp-bg)] py-24">
+      <section className="bg-[var(--avp-bg)] py-16 md:py-24">
         <div className="container">
           <div className="mb-10 max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--avp-green)]">Sports categories</p>
@@ -206,7 +206,7 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="py-16 md:py-24">
         <div className="container">
           <div className="mx-auto mb-12 max-w-2xl text-center">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--avp-green)]">Why choose us</p>
@@ -250,7 +250,7 @@ export function HomePage() {
             backgroundPosition: 'center',
           }}
         />
-        <div className="container relative py-24 text-white md:py-28">
+        <div className="container relative py-16 text-white md:py-28">
           <div className="max-w-3xl">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--avp-amber)]">Your edge</p>
             <h2 className="mt-5 text-4xl font-black uppercase leading-tight tracking-[-0.05em] md:text-6xl">
@@ -269,7 +269,7 @@ export function HomePage() {
         </div>
       </section>
 
-      <section className="py-24">
+      <section className="py-16 md:py-24">
         <div className="container rounded-[2rem] bg-[var(--avp-green)]/10 px-6 py-10 md:px-10">
           <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
             <div>

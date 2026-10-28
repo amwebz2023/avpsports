@@ -10,7 +10,7 @@ const contactCards = [
 export default function ContactPage() {
   return (
     <main>
-      <section className="bg-[var(--avp-bg)] py-24">
+      <section className="bg-[var(--avp-bg)] py-16 md:py-24">
         <div className="container grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-[var(--avp-green)]">Contact</p>

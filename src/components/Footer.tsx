@@ -18,9 +18,9 @@ export function Footer() {
             <Image
               src="/AVPsportsshop.png"
               alt="AVP Sports logo"
-              width={260}
-              height={80}
-              className="h-16 w-auto object-contain drop-shadow-[0_5px_14px_rgba(0,0,0,0.22)]"
+              width={340}
+              height={104}
+              className="h-[5rem] w-auto object-contain drop-shadow-[0_5px_14px_rgba(0,0,0,0.22)]"
             />
           </div>
           <p className="max-w-sm text-sm leading-7 text-white/75">

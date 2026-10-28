@@ -27,10 +27,10 @@ export function Header() {
           <Image
             src="/AVP%20Sports%20Shop%20Cricket%20Logo.png"
             alt="AVP Sports logo"
-            width={280}
-            height={88}
+            width={320}
+            height={100}
             priority
-            className="h-16 w-auto object-contain md:h-20"
+            className="h-[4.5rem] w-auto object-contain md:h-[5.5rem]"
           />
         </Link>
 
